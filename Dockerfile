@@ -5,3 +5,4 @@ WORKDIR /lamin
 
 ADD requirements.txt /lamin
 RUN pip install -r requirements.txt
+RUN pip install notebook
